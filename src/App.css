@@ -96,8 +96,9 @@ a{
 
 .skills-bg{
   margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
-  gap:1rem;
+  gap:2rem;
 }
 
 .image-styling{
@@ -129,6 +130,17 @@ a{
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+
+.logo-dim{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-dim svg{
+  width: 8rem;
+  height: 8rem;
 }
 
 .logo:nth-child(2){
@@ -222,6 +234,7 @@ a{
   align-items: center;
   text-decoration: none;
   color: inherit;
+  gap: 1rem;
 }
 
 .contact-link:hover .namelink .linkicon{
@@ -290,6 +303,10 @@ a{
     align-items: flex-start;
   }
 
+  .skills-bg{
+    overflow: scroll;
+  }
+
   .logo-hidden{
     opacity: 0;
     filter: blur(5px);
@@ -303,6 +320,17 @@ a{
     transform: translateX(0);
   }
   
+  .logo-dim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-dim svg{
+    width: 4rem;
+    height: 4rem;
+  }
+
   .logo:nth-child(2){
     transition-delay: 200ms;
   }
@@ -330,5 +358,5 @@ a{
   .logo:nth-child(8){
     transition-delay: 800ms;
   }
-  
+    
 }
