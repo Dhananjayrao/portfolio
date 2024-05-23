@@ -6,6 +6,7 @@ import Info from './Info';
 import Skills from './Skills';
 import pdfProjImage from './static/Textreader.png';
 import surveillanceProjImage from './static/SurveillanceDetection.png';
+import soccerAnalysisProjImage from './static/SoccerAnalysis.jpg';
 
 function App() {
   const expContent=
@@ -56,6 +57,7 @@ function App() {
     },
     {
       name:"Performance Trend Evaluation in Soccer",
+      img:soccerAnalysisProjImage,
       desc:["- Web application which analyzed performances of european soccer clubs and players using various metrics overtime and discern trends.",
             "- Parsed over the statistics of more than 1000000 games from 2003 to 2022, creating complex Oracle SQL scripts to fetch and visualize data pertaining to performances, trends and financials of Football clubs.",
             "- Provided concise and relevant insights into team structure, player performance and visualizations overindiscernible data."]

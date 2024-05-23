@@ -53,6 +53,7 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 34rem;
 }
 
 .section-bg{
@@ -81,6 +82,7 @@ a{
   display: flex;
   flex-direction: row;
   text-align: left;
+  align-items: center;
 }
 
 .info-section{
@@ -162,6 +164,7 @@ a{
 }
 
 .img-animate{
+  scale: 1.2;
   animation: imgbluranimation 3s forwards;
 }
 
